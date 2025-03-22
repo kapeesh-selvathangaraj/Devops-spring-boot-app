@@ -14,8 +14,8 @@ spec:
     spec:
       containers:
         - name: bookdir-app
-          image: techtalkjervin/social-app:latest
-          imagePullPolicy: Never
+          image: kapeesh/portfolio:latest
+          imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 8080
 ---
